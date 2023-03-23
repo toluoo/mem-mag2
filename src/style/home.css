@@ -1,0 +1,32 @@
+body {
+    background-color: #c56a84;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: auto;
+    min-height: 50vw;
+}
+
+.grid-item {
+    
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rec1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 74.54%;
+    top: 0%;
+    bottom: 43.5%;
+
+    background: #FFFFFF;
+    border: 9px solid #9C89B8;
+}

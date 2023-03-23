@@ -1,0 +1,9 @@
+:root {
+    --navbar-color: #EFC3E6;
+    --navbar-text: #4e6e5d
+}
+
+[ashley-theme = "ashley"] {
+    --navbar-color: #455c34;
+    --navbar-text: #2F2020
+}

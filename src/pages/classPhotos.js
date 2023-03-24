@@ -2,13 +2,13 @@ import React from "react";
 import Nav from "../components/Nav";
 
 import "../style/classPhotos.css"
-import laiba from "./IMG_5325.jpg"
+import laiba from "../components/IMG_5325.jpg"
 
 const ClassPhotos = () => {
     return (
       <>
         <Nav />
-        <h1>Class Of 2023/24</h1>
+        <h1>☆ Class Of 2023/24 ☆</h1>
         <div class="all">
           <div class="grid-container">
               <img class = "grid-item" src={laiba} alt="Michelle" style={{color: "#CE84AD"}} />

@@ -1,32 +1,43 @@
 .navbar {
     background-color: #e880a7;
     width: 100%;
-    min-height: 7vw;
+    min-height: 6vw;
     display: block;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    border-bottom: 3px solid;
-    border-top: 3px solid;
+    color: white;
+    text-indent: 2vw;
+    font-size: 30px;
+    font-family: ransomFont;
+    border-radius: 10px;
+    border-bottom: 3px solid #de9bbc;
+    border-top: 3px solid #de9bbc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-links {
-    color: black;
-    width: 40%;
+    color: white;
+    width: 50%;
     display: flex;
     justify-content: space-around;
+    
     list-style: none;
     vertical-align: center ;
 }
 
 .nav-links>a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .dropdown{
-    background-color: #EFC3E6;
-    color: black;
+    
+    color: white;
     display: flex;
     justify-content: space-around;
+}
+
+@font-face {
+    font-family: ransomFont;
+    src: url(../components/StayPixelRegular-EaOxl.ttf);
 }

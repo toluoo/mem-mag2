@@ -6,7 +6,7 @@ import laiba from "../components/IMG_5325.jpg"
 
 const ClassPhotos = () => {
     return (
-      <>
+      <body>
         <Nav />
         <h1>☆ Class Of 2023/24 ☆</h1>
         <div class="all">
@@ -24,7 +24,7 @@ const ClassPhotos = () => {
           </div>
         </div>
         
-      </>
+      </body>
       
     );
 };
